@@ -1,0 +1,28 @@
+body {
+    font-family: system-ui, -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        'Open Sans',
+        'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+    max-width: 1095px;
+}
+
+img {
+    margin: 50px 0;
+}
+
+.care__shoes {
+    margin: 0;
+
+}
+
+.cream__shoes {
+    padding-top: 50px;
+}
