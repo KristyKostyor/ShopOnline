@@ -12,6 +12,71 @@
     font-weight: 700;
 }
 
+html {
+    position: relative;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+
+button {
+    display: block;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+
+
 body {
     font-family: 'Droid Serif',
         system-ui, -apple-system,
@@ -24,22 +89,73 @@ body {
         'Open Sans',
         'Helvetica Neue', sans-serif;
     font-weight: 400;
-
 }
 
 .wrapper {
     max-width: 1095px;
+    margin-left: 75px;
 }
 
-img {
-    margin: 50px 0;
+.heading__care {
+    margin: 100px 30px 35px 75px;
 }
 
 .care__shoes {
-    margin: 0;
+    margin: 35px 30px 25px 75px;
+}
+
+.care__shoes-regular {
+
+    margin: 25px 30px 25px 75px;
 
 }
 
-.cream__shoes {
-    padding-top: 50px;
+
+
+ol {
+    margin: 25px 30px 25px 90px;
+    padding: 0;
+}
+
+
+#attention {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.attention__title {
+    margin-bottom: 20px;
+}
+
+.care__shoes-img {
+    margin-left: 75px;
+}
+
+#first-time {
+    margin: 25px 0 25px 0;
+}
+
+#first-time h3 {
+    margin-bottom: 20px;
+}
+
+#care__home {
+    margin: 25px 0 90px 0;
+}
+
+#care__home h3 {
+    margin-bottom: 20px;
+}
+
+.care__home-better {
+    margin-bottom: 50px;
+}
+
+.care__home-wash {
+    margin-bottom: 70px;
+}
+
+.care__home-two,
+.care__home-end {
+    margin-top: 50px;
 }
