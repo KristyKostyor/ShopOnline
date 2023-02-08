@@ -96,7 +96,7 @@ body {
     margin-left: 75px;
 }
 
-.heading__care {
+.care__heading {
     margin: 100px 30px 35px 75px;
 }
 
@@ -127,7 +127,7 @@ ol {
     margin-bottom: 20px;
 }
 
-.care__shoes-img {
+.shoes-img {
     margin-left: 75px;
 }
 
@@ -139,23 +139,23 @@ ol {
     margin-bottom: 20px;
 }
 
-#care__home {
+.care-home {
     margin: 25px 0 90px 0;
 }
 
-#care__home h3 {
+.care-home__title {
     margin-bottom: 20px;
 }
 
-.care__home-better {
+.care-home__better {
     margin-bottom: 50px;
 }
 
-.care__home-wash {
+.care-home__wash {
     margin-bottom: 70px;
 }
 
-.care__home-two,
-.care__home-end {
+.care-home__two,
+.care-home__end {
     margin-top: 50px;
 }
